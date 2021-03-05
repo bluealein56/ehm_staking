@@ -2,12 +2,6 @@
 
 Tools for quickly setting up a Cardano-Node!
 
-## Quickstart
-
-Follow our [quickstart guide](https://viperstaking.com/ada-tools/node-quickstart/) 
-to get a relay node up and running in less than 10 minutes! The following sections 
-provide other configuration examples.
-
 ## Default configuration (cardano-node binary)
 This container runs with `ENTRYPOINT cardano-node`. A `CMD` statement provides a
 default argument if no arguments are provided when running the container. This 
