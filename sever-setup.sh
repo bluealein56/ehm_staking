@@ -30,8 +30,12 @@ echo "Adding user \"`whoami`\" to the docker group"
 groupadd docker
 usermod -aG docker `whoami`
 
+#TODO This needs to be updated to own repo
 # Pull the cardano-node docker container
-docker pull registry.gitlab.com/viper-staking/docker-containers/cardano-node:latest
+# Install custom Docker image from personal repo
+#docker pull bluealein56/ehm_staking:latest
+# Pull Latest Node rleese
+docker pull inputoutput/cardano-node:latest
 
 # Create the lovelace user (do not switch user)
 groupadd -g 1024 lovelace
