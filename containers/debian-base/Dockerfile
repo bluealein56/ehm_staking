@@ -1,5 +1,5 @@
 FROM debian:latest
-LABEL maintainer="VIPER Staking Team (viperstakepool@gmail.com)"
+LABEL maintainer="EHM Staking (brad816am@gmail.com)"
 
 RUN apt-get update \
  && apt-get install -y \
