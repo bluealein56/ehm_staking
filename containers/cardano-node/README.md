@@ -59,11 +59,3 @@ A `slim` version of the container is also provided that has no extra tools
 installed for minimal container size. This may be useful when merely using the 
 container as a `cardano-node` executable.
 
-## Quickstart
-
-Follow our [quickstart guide](https://viperstaking.com/ada-tools/node-quickstart/) 
-to get a relay node up and running using this container in less than 10 minutes!
-
----
-
-_Visit our [website](https://viperstaking.com) for information on our other open source Cardano tools. If you find our tools useful, please consider buying us a beer! :beer: [Contribute](https://viperstaking.com/ada-tools/contribute/)_
