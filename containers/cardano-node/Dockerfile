@@ -1,5 +1,5 @@
 FROM debian:latest AS build
-LABEL maintainer="VIPER Staking Team (viperstakepool@gmail.com)"
+LABEL maintainer="EHM Staking Team (brad816am@gmail.com)"
 
 # Update and install the required packages
 ARG DEBIAN_FRONTEND=noninteractive
