@@ -8,10 +8,10 @@
 #docker push bluealein56/ehm:$TAG
 #
 #docker login
-docker build -t ehm-node:latest .
-docker tag ehm-node:latest bluealein56/ehm:ehm-node
+docker build -t ehm-node:v1 .
+docker tag ehm-node:latest bluealein56/ehm-node:v1
 #docker push bluealein56/ehm:$TAG
-docker push bluealein56/ehm:ehm-node
+docker push bluealein56/ehm-node:v1
 
 
 

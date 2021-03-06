@@ -75,7 +75,7 @@ RUN cd /root \
 
 # Build the final stage and copy the build artifacts from the previous stage.
 #FROM registry.gitlab.com/viper-staking/docker-containers/debian-base:latest
-FROM bluealein56/ehm:ehm-base
+FROM bluealein56/debian-base:latest
 COPY --from=build /usr/local/lib/libsodium* /usr/local/lib/
 COPY --from=build /opt/bin/cardano-cli /usr/local/bin/
 COPY --from=build /opt/bin/cardano-node /usr/local/bin/
